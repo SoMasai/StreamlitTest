@@ -27,6 +27,7 @@ def communicate():
 
     st.session_state["user_input"] = ""  # 入力欄を消去
 
+communicate()    
 
 # ユーザーインターフェイスの構築
 st.title("My AI Assistant")
